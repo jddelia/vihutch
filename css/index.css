@@ -564,7 +564,7 @@ body {
       display: grid;
       grid-template-columns: 1fr;
       margin-top: 2%;
-      margin-bottom: 10%;
+      margin-bottom: 6%;
   }
 
   #headline-text {
@@ -701,12 +701,18 @@ body {
       letter-spacing: 1.5px;
   }
 
+  #reviews-header-text {
+      color: #fff;
+      font-size: 30px;
+      letter-spacing: 1.5px;
+  }
+
   #reviews-boxes {
-      margin-top: -15%;
+      margin-top: -10%;
       justify-self: center;
       display: grid;
       grid-template-columns: 1fr;
-      height: 380px;
+      height: 250px;
       width: 100%;
       padding: 2%;
       align-items: center;
