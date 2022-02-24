@@ -564,7 +564,7 @@ body {
       display: grid;
       grid-template-columns: 1fr;
       margin-top: 2%;
-      margin-bottom: 4%;
+      margin-bottom: 10%;
   }
 
   #headline-text {
@@ -690,18 +690,19 @@ body {
       grid-template-columns: 1fr;
       height: 300px;
       width: 90%;
-      margin-top: 6%;
+      margin-top: 15%;
       align-items: center;
       justify-items: center;
   }
 
   #reviews-header {
       color: #fff;
-      font-size: 40px;
+      font-size: 30px;
       letter-spacing: 1.5px;
   }
 
   #reviews-boxes {
+      margin-top: -15%;
       justify-self: center;
       display: grid;
       grid-template-columns: 1fr;
@@ -717,7 +718,7 @@ body {
       background-color: rgb(21, 22, 39);
       justify-self: center;
       width: 85%;
-      height: 85%;
+      height: 200px;
       display: grid;
       grid-template-columns: 1fr;
   }
@@ -726,7 +727,7 @@ body {
       width: 75%;
       padding-top: 6%;
       justify-self: center;
-      font-size: 18px;
+      font-size: 14px;
       line-height: 1.5;
       color: rgb(223, 221, 221);
   }
