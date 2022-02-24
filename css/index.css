@@ -690,7 +690,7 @@ body {
       grid-template-columns: 1fr;
       height: 350px;
       width: 90%;
-      margin-top: 15%;
+      margin-top: 8%;
       align-items: center;
       justify-items: center;
   }
@@ -712,7 +712,7 @@ body {
       justify-self: center;
       display: grid;
       grid-template-columns: 1fr;
-      height: 250px;
+      height: 280px;
       width: 100%;
       padding: 2%;
       align-items: center;
@@ -724,7 +724,7 @@ body {
       background-color: rgb(21, 22, 39);
       justify-self: center;
       width: 85%;
-      height: 230px;
+      height: 260px;
       display: grid;
       grid-template-columns: 1fr;
   }
@@ -751,7 +751,7 @@ body {
   }
 
   #contact {
-    margin-top: 16%;
+    margin-top: 8%;
     margin-bottom: 4%;
     height: 450px;
     display: grid;
