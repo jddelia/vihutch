@@ -578,7 +578,7 @@ body {
       background-color: rgb(21, 22, 39);
       justify-self: center;
       width: 85%;
-      height: 330px;
+      height: 310px;
       display: grid;
       grid-template-columns: 3fr 2fr;
   }
@@ -688,7 +688,7 @@ body {
       justify-self: center;
       display: grid;
       grid-template-columns: 1fr;
-      height: 350px;
+      height: 380px;
       width: 90%;
       margin-top: 15%;
       align-items: center;
