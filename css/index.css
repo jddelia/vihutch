@@ -577,7 +577,7 @@ body {
       border-radius: 5px;
       background-color: rgb(21, 22, 39);
       justify-self: center;
-      width: 75%;
+      width: 85%;
       height: 40vh;
       display: grid;
       grid-template-columns: 3fr 2fr;
