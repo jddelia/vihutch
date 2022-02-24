@@ -508,7 +508,7 @@ body {
       justify-self: start;
       align-self: center;
       margin-top: -10%;
-      margin-left: -30%;
+      margin-left: -25%;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       column-gap: 15px;
@@ -747,12 +747,11 @@ body {
   #contact {
       display: grid;
       grid-template-columns: 1fr;
-      height: 200px;
   }
 
   #contact {
     margin-top: 8%;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
     height: 450px;
     display: grid;
     justify-content: center;
@@ -768,6 +767,16 @@ body {
   
   .contact-links, .contact-form-wrapper {
     padding: 4% 10% 5% 10%;
+  }
+
+  .contact-links {
+    height: 80px;
+    margin-bottom: -10%;
+    border-radius: 5px !important;
+  }
+
+  .contact-form-wrapper {
+    border-radius: 0px !important;
   }
   
   .contact-links {
@@ -790,7 +799,7 @@ body {
   }
   
   .contact-form-wrapper {
-    background-color: #3852748f;
+    background-color: #1b2f4b;
     border-radius: 0 10px 10px 0;
   }
   
