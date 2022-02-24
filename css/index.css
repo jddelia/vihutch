@@ -577,7 +577,7 @@ body {
       border-radius: 5px;
       background-color: rgb(21, 22, 39);
       justify-self: center;
-      width: 85%;
+      width: 90%;
       height: 290px;
       display: grid;
       grid-template-columns: 3fr 2fr;
@@ -723,7 +723,7 @@ body {
       border-radius: 5px;
       background-color: rgb(21, 22, 39);
       justify-self: center;
-      width: 85%;
+      width: 90%;
       height: 260px;
       display: grid;
       grid-template-columns: 1fr;
