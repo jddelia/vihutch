@@ -353,8 +353,9 @@ h2 {
 }
 
 #about-container {
+  justify-self: center;
   margin-top: 2%;
-  width: 95%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 50px;
