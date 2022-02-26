@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Mandali&family=Montserrat:wght@300&display=swap');
+
 body {
+    font-family: 'Mandali', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     background: rgb(30,32,52);
+}
+
+h2 {
+  font-family: 'Mandali', sans-serif;
 }
 
 .container {
@@ -10,6 +17,7 @@ body {
 }
 
 #navbar {
+    font-family: 'Montserrat', sans-serif;
     height: fit-content;
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -91,6 +99,7 @@ body {
 }
 
 #headline {
+    font-family: 'Mandali', sans-serif;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -124,6 +133,7 @@ body {
 }
 
 .title-text {
+    font-family: 'Cormorant', serif;
     color: #fff;
     font-size: 20px;
     line-height: 1.5;
@@ -138,6 +148,7 @@ body {
 }
 
 #jumbo-text-content {
+    font-family: 'Mandali', sans-serif;
     align-self: center;
     justify-self: center;
     width: 65%;
@@ -223,6 +234,7 @@ body {
 }
 
 #reviews-header {
+    font-family: 'Mandali', sans-serif;
     color: #fff;
     font-size: 40px;
     letter-spacing: 1.5px;
@@ -250,6 +262,7 @@ body {
 }
 
 .review-content {
+    font-family: 'Mandali', sans-serif;
     width: 75%;
     padding-top: 6%;
     justify-self: center;
@@ -277,6 +290,7 @@ body {
 }
 
 #books-header {
+  font-family: 'Mandali', sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -321,6 +335,7 @@ body {
 }
 
 .book-box-title {
+  font-family: 'Cormorant', serif;
   justify-self: center;
   width: 80%;
   padding-top: 10px;
@@ -330,10 +345,62 @@ body {
 }
 
 .book-box-content {
+  font-family: 'Mandali', sans-serif;
   justify-self: center;
   width: 90%;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#about-container {
+  margin-top: 2%;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+  align-items: center;
+}
+
+#about-header {
+  font-family: 'Mandali', sans-serif;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#about-header-text {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+#about-img {
+  padding-left: 10%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#author-img {
+  height: 420px;
+}
+
+#about-content {
+  padding: 2%;
+  border: 1px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#about-content-text {
+    font-family: 'Mandali', sans-serif;
+    margin-top: -20px;
+    width: 75%;
+    padding-top: 6%;
+    justify-self: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(223, 221, 221);
 }
 
 /****************************
@@ -1052,5 +1119,60 @@ body {
     margin-top: 4%;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  #about-container {
+    margin-top: 2%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+    align-items: center;
+  }
+  
+  #about-header {
+    margin-bottom: 10px;
+    font-family: 'Mandali', sans-serif;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #about-header-text {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+  
+  #about-img {
+    padding-left: 0%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #author-img {
+    height: 320px;
+  }
+  
+  #about-content {
+    width: 90%;
+    justify-self: center;
+    padding: 2%;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #about-content-text {
+      font-family: 'Mandali', sans-serif;
+      width: 75%;
+      padding-top: 6%;
+      justify-self: center;
+      font-size: 18px;
+      line-height: 1.5;
+      color: rgb(223, 221, 221);
   }
 }
